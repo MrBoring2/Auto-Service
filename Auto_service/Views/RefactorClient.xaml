@@ -1,0 +1,65 @@
+﻿<Window x:Class="Auto_service.Views.RefactorClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Auto_service.Services"
+        xmlns:xc="clr-namespace:Auto_service.Services"
+        mc:Ignorable="d"
+        Title="ООО «Поломка» | Редактирование клиента"  Height="477" Width="1059"
+        xc:DialogCloser.DialogResult="{Binding DialogResult}"
+        Icon="/Auto_service;component/Resources/service_logo.ico" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:TagWrapConverter x:Key="tagWrapConv"/>
+        <local:ImageConverter x:Key="imageConv"/>
+        <local:StandartTagConverter x:Key="standTagConv"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="769*"/>
+            <ColumnDefinition Width="282*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Margin="15,33,0,0" Source="{Binding Path=PhotoSource, Converter={StaticResource imageConv}}" Stretch="Fill" HorizontalAlignment="Left" Width="150" Height="150" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,13,0,0" TextWrapping="Wrap" Text="Фото" VerticalAlignment="Top" RenderTransformOrigin="-18.643,0.688" FontFamily="Tw Cen MT" FontSize="16"/>
+        <StackPanel HorizontalAlignment="Left" Height="auto" Margin="187,33,0,0" VerticalAlignment="Top" Width="229">
+            <TextBlock Text="ID" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBox Text="{Binding ID}" IsReadOnly="True" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="Фамилия" FontFamily="Tw Cen MT" FontSize="16"></TextBlock>
+            <TextBox Text="{Binding LastName}" FontFamily="Tw Cen MT" FontSize="16"></TextBox>
+            <TextBlock Text="Имя" FontFamily="Tw Cen MT" FontSize="16"></TextBlock>
+            <TextBox Text="{Binding FirstName}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="Отчество" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBox Text="{Binding Patronomic}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="Email" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBox Text="{Binding Email}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="Телефон" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBox Text="{Binding Phone}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="День рождения" FontFamily="Tw Cen MT" FontSize="16"/>
+            <DatePicker SelectedDate="{Binding BirthDay}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="Пол" FontFamily="Tw Cen MT" FontSize="16"/>
+            <ComboBox SelectedValue="{Binding SelectedGender}" Style="{StaticResource ComboBoxTest2}" ItemsSource="{Binding Genders}" FontFamily="Tw Cen MT" FontSize="16" />
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="187,16,0,0" TextWrapping="Wrap" Text="Информация" VerticalAlignment="Top" RenderTransformOrigin="-18.643,0.688" FontFamily="Tw Cen MT" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="464,13,0,0" TextWrapping="Wrap" Text="Теги клиента" VerticalAlignment="Top" RenderTransformOrigin="-18.643,0.688" FontFamily="Tw Cen MT" FontSize="16"/>
+        <ListBox Focusable="False" SelectedItem="{Binding Path=SelectedRemoveTag, Converter={StaticResource standTagConv}}" ItemsSource="{Binding Tags, Converter={StaticResource tagWrapConv}, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="289" Margin="464,35,0,0" Width="210" VerticalAlignment="Top"/>
+        <Button Command="{Binding LoadImage}" Content="Загрузить картинку" Height="30" HorizontalAlignment="Left" Margin="15,198,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="16" Width="150"/>
+        <Button Command="{Binding RemoveTagFromClient}" Content="Удалить тег" Height="30" HorizontalAlignment="Left" Margin="464,329,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="16" Width="200"/>
+        <Button Command="{Binding SaveChanges}" Content="Сохранить изменения" Height="30" HorizontalAlignment="Left" Margin="17,406,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="16" Width="181"/>
+        <ListBox Focusable="False" SelectedItem="{Binding Path=SelectedAddTeg, Converter={StaticResource standTagConv}}" ItemsSource="{Binding AllTags, Converter={StaticResource tagWrapConv}, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="289" Margin="692,35,0,0" VerticalAlignment="Top" Width="210" Grid.ColumnSpan="2"/>
+        <Button Command="{Binding AddTagToClient}" Content="Дабавить тег клиенту" Height="30" HorizontalAlignment="Left" Margin="692,329,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="16" Width="200" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="692,13,0,0" TextWrapping="Wrap" Text="Доступные теги" VerticalAlignment="Top" RenderTransformOrigin="-18.643,0.688" FontFamily="Tw Cen MT" FontSize="16" Grid.ColumnSpan="2"/>
+        <StackPanel HorizontalAlignment="Left" Height="130" Margin="138.787,35,0,0" VerticalAlignment="Top" Width="133" Grid.Column="1">
+            <TextBlock Text="Заголовок" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBox Text="{Binding TagTitle}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBlock Text="Цвет" FontFamily="Tw Cen MT" FontSize="16"/>
+            <TextBox Text="{Binding ColorHex}" FontFamily="Tw Cen MT" FontSize="16"/>
+            <Button Command="{Binding AddTagToDB}" Margin="0,10,0,0" Content="Добавить" Height="30" FontFamily="Tw Cen MT" FontSize="16"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="138.787,13,0,0" TextWrapping="Wrap" Text="Добавить тег" VerticalAlignment="Top" RenderTransformOrigin="-18.643,0.688" FontFamily="Tw Cen MT" FontSize="16" Grid.Column="1"/>
+        <Button Command="{Binding RemoveTagFromDB}" Content="Удалить тег из базы" Height="30" HorizontalAlignment="Left" Margin="692,364,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="16" Width="200" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

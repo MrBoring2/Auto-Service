@@ -1,0 +1,181 @@
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.csprojAssemblyReference.cache
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Views\Clients.g.cs
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\App.g.cs
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service_Content.g.cs
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.cache
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.lref
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\Auto_service.exe.config
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\Auto_service.exe
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\Auto_service.pdb
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\EntityFramework.dll
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\EntityFramework.xml
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user452\source\repos\Auto_service\Auto_service\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Views\Clients.baml
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.g.resources
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.Properties.Resources.resources
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.GenerateResource.cache
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CoreCompileInputs.cache
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CopyComplete
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.exe
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\Auto_service.pdb
+C:\Users\user452\source\repos\Auto_service\Auto_service\obj\Debug\App.baml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\Auto_service.exe.config
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\Auto_service.exe
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\Auto_service.pdb
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.dll
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.xml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csprojAssemblyReference.cache
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Views\Clients.g.cs
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\App.g.cs
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service_Content.g.cs
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.cache
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.lref
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\App.baml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Views\Clients.baml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.g.resources
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.Properties.Resources.resources
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.GenerateResource.cache
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CoreCompileInputs.cache
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CopyComplete
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.exe
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.pdb
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Resources\DataGrid.baml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Resources\OtherElements.baml
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\Auto_service.exe.config
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\Auto_service.exe
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\Auto_service.pdb
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.dll
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.dll
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.xml
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.xml
+F:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\ru\EntityFramework.resources.dll
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csprojAssemblyReference.cache
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\Clients.g.cs
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\App.g.cs
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service_Content.g.cs
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.cache
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.lref
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\App.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Resources\DataGrid.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Resources\OtherElements.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\Clients.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.g.resources
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.Properties.Resources.resources
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.GenerateResource.cache
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CoreCompileInputs.cache
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CopyComplete
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.exe
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.pdb
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\Auto_service.exe.config
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\Auto_service.exe
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\Auto_service.pdb
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\EntityFramework.dll
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\EntityFramework.xml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.csprojAssemblyReference.cache
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Views\Clients.g.cs
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\App.g.cs
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service_Content.g.cs
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.cache
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.lref
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\App.baml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Resources\DataGrid.baml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Resources\OtherElements.baml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Views\Clients.baml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.g.resources
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.Properties.Resources.resources
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.GenerateResource.cache
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CoreCompileInputs.cache
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CopyComplete
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.exe
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Auto_service.pdb
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\Auto_service.exe.config
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\Auto_service.exe
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\Auto_service.pdb
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.dll
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.dll
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.xml
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.xml
+E:\бд практика\Программа\Auto_service\Auto_service\bin\Debug\ru\EntityFramework.resources.dll
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csprojAssemblyReference.cache
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\Clients.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\App.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service_Content.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.cache
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.lref
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\App.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Resources\DataGrid.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Resources\OtherElements.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\Clients.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.g.resources
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.Properties.Resources.resources
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.GenerateResource.cache
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CoreCompileInputs.cache
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CopyComplete
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.exe
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Auto_service.pdb
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Views\AddClient.g.cs
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Views\AddClient.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\AddClient.g.cs
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\AddClient.baml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Views\AddClient.g.cs
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Views\AddClient.baml
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.g.cs
+C:\Users\user452\Documents\Работы студентов\Симонов Кузнецов\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.baml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.g.cs
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.baml
+C:\Users\MrBoring\Desktop\Auto_service\Auto_service\obj\Debug\Resources\ListBox.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.g.cs
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Resources\ListBox.baml
+F:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\Auto_service.exe.config
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\Auto_service.exe
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\Auto_service.pdb
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.dll
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.xml
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user452\Desktop\Auto_service\Auto_service\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csprojAssemblyReference.cache
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\AddClient.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\Clients.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\App.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service_Content.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.cache
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service_MarkupCompile.lref
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\App.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Resources\DataGrid.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Resources\ListBox.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Resources\OtherElements.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\AddClient.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\Clients.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.baml
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.g.resources
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.Properties.Resources.resources
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.GenerateResource.cache
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CoreCompileInputs.cache
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.csproj.CopyComplete
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.exe
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Auto_service.pdb
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\ClientServices.g.cs
+C:\Users\user452\Desktop\Auto_service\Auto_service\obj\Debug\Views\ClientServices.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\AddClient.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\ClientServices.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.g.cs
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Resources\ListBox.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\AddClient.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\ClientServices.baml
+E:\бд практика\Программа\Auto_service\Auto_service\obj\Debug\Views\RefactorClient.baml

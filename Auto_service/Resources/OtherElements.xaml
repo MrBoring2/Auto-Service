@@ -1,0 +1,228 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Auto_service.Resources">
+    <LinearGradientBrush x:Key="Brush_WindowBackground" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#FFEEA849" Offset="1"/>
+        <GradientStop Color="#FFF46B45" Offset="0"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Brush_ButtonBackground" Color="#FFFFFFE1">
+        
+    </SolidColorBrush>
+    <SolidColorBrush x:Key="Brush_ButtonBackgroundMouseOver" Color="#FFFFFF9C">
+        
+    </SolidColorBrush>
+
+
+
+
+
+    
+    <Style TargetType="{x:Type Grid}" x:Key="GridStyle">
+        <Setter Property="Background" Value="{StaticResource Brush_WindowBackground}"/>
+    </Style>
+
+
+    <Style x:Key="{x:Type Button}" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="{StaticResource Brush_ButtonBackground}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource Brush_ButtonBackgroundMouseOver}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type TextBox}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="KeyboardNavigation.TabNavigation" Value="None" />
+        <Setter Property="FocusVisualStyle"   Value="{x:Null}" />
+        <Setter Property="MinWidth" Value="100" />
+        <Setter Property="MinHeight" Value="25" />
+        <Setter Property="AllowDrop"  Value="true" />
+        <Setter Property="BorderBrush" Value="{DynamicResource CouleurBouton}" />
+        <Setter Property="Background" Value="#FFFFFFE1" />
+        <Setter Property="BorderBrush" Value="Black"/>
+
+        <Setter Property="FontFamily" Value="Helvetica" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="{DynamicResource CouleurTexte}" />
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TextBoxBase}">
+                    <Border Name="Border"
+                CornerRadius="7"
+                Padding="2"
+                BorderThickness="1"
+                Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}">
+                        <ScrollViewer Margin="0"
+                        x:Name="PART_ContentHost" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <!-- Mouse Over -->
+                                <Condition Property="IsEnabled" Value="True" />
+                                <Condition Property="IsMouseOver" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CouleurBoutonHover}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CouleurTexte}" />
+                        </MultiTrigger>
+
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <!-- Desactivé-->
+                                <Condition Property="IsEnabled" Value="False" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CouleurBoutonDisabled}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CouleurBoutonDisabled}"/>
+                        </MultiTrigger>
+
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <!-- Focus-->
+                                <Condition Property="IsEnabled" Value="True" />
+                                <Condition Property="IsFocused" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CouleurBoutonPressed}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CouleurTexte}" />
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type PasswordBox}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="KeyboardNavigation.TabNavigation" Value="None" />
+        <Setter Property="FocusVisualStyle"   Value="{x:Null}" />
+        <Setter Property="MinWidth" Value="100" />
+        <Setter Property="MinHeight" Value="25" />
+        <Setter Property="AllowDrop"  Value="true" />
+        <Setter Property="BorderBrush" Value="{DynamicResource CouleurBouton}" />
+        <Setter Property="Background" Value="#FFF5A670" />
+        <Setter Property="BorderBrush" Value="Black"/>
+
+        <Setter Property="FontFamily" Value="Helvetica" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="{DynamicResource CouleurTexte}" />
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type PasswordBox}">
+                    <Border Name="Border"
+                CornerRadius="7"
+                Padding="2"
+                BorderThickness="1"
+                Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}">
+                        <ScrollViewer Margin="0"
+                        x:Name="PART_ContentHost" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <!-- Mouse Over -->
+                                <Condition Property="IsEnabled" Value="True" />
+                                <Condition Property="IsMouseOver" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CouleurBoutonHover}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CouleurTexte}" />
+                        </MultiTrigger>
+
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <!-- Desactivé-->
+                                <Condition Property="IsEnabled" Value="False" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CouleurBoutonDisabled}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CouleurBoutonDisabled}"/>
+                        </MultiTrigger>
+
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <!-- Focus-->
+                                <Condition Property="IsEnabled" Value="True" />
+                                <Condition Property="IsFocused" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CouleurBoutonPressed}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CouleurTexte}" />
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+    <Style x:Key="ComboBoxTest2" TargetType="{x:Type ComboBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBox">
+                    <Grid>
+                        <ToggleButton Grid.Column="2" Focusable="false" IsChecked="{Binding Path=IsDropDownOpen,Mode=TwoWay,RelativeSource={RelativeSource TemplatedParent}}" >
+                            <ToggleButton.Template>
+                                <ControlTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="5*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border x:Name="Border"  Grid.ColumnSpan="2" CornerRadius="5" Background="#FFFDFDBA" BorderBrush="Black" BorderThickness="1" />
+                                        <Border Grid.Column="0" CornerRadius="5,0,0,5"  Margin="1"  Background="#FFFFFFE1" BorderBrush="Black" BorderThickness="0,0,1,0" />
+                                        <Path x:Name="Arrow" Grid.Column="1"  Fill="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Data="M 0 0 L 4 4 L 8 0 Z"/>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="ToggleButton.IsMouseOver" Value="true">
+                                            <Setter TargetName="Border" Property="Background" Value="#FFFFFF9C" />
+                                            <Setter TargetName="Border" Property="BorderBrush" Value="Black"/>
+                                            
+                                        </Trigger>
+                                        <Trigger Property="ToggleButton.IsChecked" Value="true">
+                                            <Setter TargetName="Border" Property="Background" Value="#FFFFFF9C" />
+                                            <Setter TargetName="Border" Property="BorderBrush" Value="Black"/>
+                                            <Setter TargetName="Border" Property="BorderThickness" Value="1"/>
+
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </ToggleButton.Template>
+                        </ToggleButton>
+                        <ContentPresenter Name="ContentSite" IsHitTestVisible="False"  Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}" Margin="8"  />
+                        <TextBox x:Name="PART_EditableTextBox" Visibility="Hidden" IsReadOnly="{TemplateBinding IsReadOnly}" Background="#FFFFFF9C"/>
+                        <Popup Name="Popup" Placement="Bottom"  IsOpen="{TemplateBinding IsDropDownOpen}" AllowsTransparency="True" Focusable="False" PopupAnimation="Slide">
+                            <Grid  Name="DropDown" SnapsToDevicePixels="False" MinWidth="{TemplateBinding ActualWidth}" MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                <Border x:Name="DropDownBorder" BorderBrush="#FFFFFF9C" BorderThickness="1" Background="#FFFFFF9C" />
+
+                                <ScrollViewer SnapsToDevicePixels="True" BorderBrush="Black" BorderThickness="1">
+                                    <StackPanel IsItemsHost="True"  />
+                                </ScrollViewer>
+                            </Grid>
+                        </Popup>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="{x:Type ComboBoxItem}">
+        <Setter Property="Background" Value="Beige"/>
+    </Style>
+</ResourceDictionary>

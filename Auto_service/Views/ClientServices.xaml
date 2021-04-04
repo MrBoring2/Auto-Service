@@ -1,0 +1,36 @@
+﻿<Window x:Class="Auto_service.Views.ClientServices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Auto_service.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="ООО «Поломка» | Услуги клиента" Height="437" Width="auto" MinWidth="500" Icon="/Auto_service;component/Resources/service_logo.ico">
+    <Grid>
+        <DataGrid CanUserAddRows="false" RowHeaderWidth="0"  FontSize="16" FontFamily="Tw Cen MT" ItemsSource="{Binding ClientServices}" SelectionMode="Single" CanUserSortColumns="False" VirtualizingStackPanel.IsVirtualizing="True" VirtualizingStackPanel.VirtualizationMode="Recycling" AutoGenerateColumns="False"  HorizontalAlignment="Left" Margin="0,65,0,0" VerticalAlignment="Top" Background="White" MinWidth="400" MinHeight="300" Height="auto" MaxHeight="800" Width="auto">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Услуга" Width="200*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Service.Title}" FontSize="16" FontFamily="Tw Cen MT" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding StartTime, StringFormat={}{0:dd.MM.yyyy}}" FontSize="16" FontFamily="Tw Cen MT" Header="Дата посещения" Width="100*"/>
+                <DataGridTextColumn Binding="{Binding StartTime, StringFormat={}{0:HH:mm:ss}}" FontSize="16" FontFamily="Tw Cen MT" Header="Время посещения" Width="100*"/>
+                <DataGridTextColumn Binding="{Binding Service.Cost}" Header="Цена (руб.)" Width="70*"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Command="{Binding Back}" Height="30" Content="Назад" HorizontalAlignment="Left" FontSize="16" FontFamily="Tw Cen MT" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock Height="25" FontSize="18" FontFamily="Tw Cen MT" Margin="0,6,265,0" TextWrapping="Wrap" Text="Клиент:" VerticalAlignment="Top" RenderTransformOrigin="0.612,0.188" HorizontalAlignment="Right" Width="68"/>
+        <StackPanel Orientation="Horizontal" Height="25" Margin="0,31,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="327" >
+            <TextBlock Text="{Binding CurrentClient.LastName}" Margin="5,0,0,0"  FontSize="16" FontFamily="Tw Cen MT"/>
+            <TextBlock Text="{Binding CurrentClient.FirstName}" Margin="5,0,0,0"  FontSize="16" FontFamily="Tw Cen MT"/>
+            <TextBlock Text="{Binding CurrentClient.Patronymic}" Margin="5,0,0,0"  FontSize="16" FontFamily="Tw Cen MT"/>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
